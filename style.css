@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     background-color: #4d336e;
     color: white;
@@ -41,4 +47,32 @@ header{
 
 .colleen-titulo{
     padding: 24px 0;
+}
+
+.livros-imagem{
+    width: 120px;
+}
+
+.livros-div{
+    text-align: center;
+}
+
+.livros-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+S
+.livros-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #4d336e;
+    text-align: center;
+}
+
+.rodape-colleen{
+    height: 60px;
+    padding: 12px 0;
 }
